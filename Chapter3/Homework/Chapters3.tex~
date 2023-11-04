@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\usepackage{mathtools, amsmath, setspace}
+
+\title{Chapter 3 Exercise}
+\author{Kevin Li}
+\date{September 26, 2023}
+
+% Paired delimiter
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+\maketitle
+\pagebreak
+\begin{spacing}{2}
+  
+  3.1) 2n+1\\
+  
+  
+  3.3) Assume for a base case of n = m+1 indicating that there is more than 1 object in the set of holes we can then use induction step showing that n = k(m + 1) where the k is a positive integer. Then we can use induction hypothesis for n = k(m+1)-m. Now if we add m + 1 to the existing configurations the k boxes will contain more then the m boxes. Finally distribute the m + 1 into the m boxes indicating that the extended pigeonhole principle is true showing there is more than one pigeon in the hole. \\
+
+  
+  3.5) Assume $\sum_{i=0}^{n}i^2$ = $\frac{n(n+1)(2n+1)}{6}$ if we set the base case of P(0) which would result as true making both sides equal to 0. Then we can show that P(n+1) while also return true proving that for n is greater than or equal to 0. \\
+    
+  3.7) Given $\sum_{i=0}^{n}i^3$ = $(\sum_{i=0}^{n})^2$ assume n is 0 it will results in both being equal to 0 thus, it's true. In addition, we can set the equal as $1^2 + 2^2 + \cdots + (n+1)^2 = (1+2+3+\cdots+(n+1))^3$ and then we can prove that n is greater than or equal to 0.\\
+  
+    
+  3.9)For subset A = {h1, h2, ... , hn}, the induction hypothesis indeed applies because it's a set of size n, and you assume that all horses in a set of size n are the same color. In addition. subset B = {h2, h3, ... , hn+1}, it's not a set of size n but rather a set of size n + 1. Therefore, the induction hypothesis does not directly apply to this subset.\\
+  
+    
+  
+\end{spacing}
+\end{document}

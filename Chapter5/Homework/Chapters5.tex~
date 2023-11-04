@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\usepackage{mathtools, amsmath, setspace}
+
+\title{Chapter 5 Exercise}
+\author{Kevin Li}
+\date{October 24, 2023}
+
+% Paired delimiter
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+\maketitle
+\pagebreak
+\begin{spacing}{2}
+      
+  
+\end{spacing}
+\end{document}

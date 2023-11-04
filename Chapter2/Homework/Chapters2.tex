@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\usepackage{mathtools, amsmath, setspace}
+
+\title{Chapter 2 Exercise}
+\author{Kevin Li}
+\date{September 11, 2023}
+
+% Paired delimiter
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+\maketitle
+\pagebreak
+\begin{spacing}{2}
+  2.1)
+  \begin{align*}
+    2k+1 = -1\\
+    2k = -2\\
+    k = -1\\
+  \end{align*}
+  thus it satisfy the condition, therefore -1 is an odd integer.
+  
+
+  2.3)
+  \begin{align*}
+    a = 2n+1, b = 2m+1\\
+    ab = (2n+1)(2m+1)\\
+    ab = (4nm+2n+2m+1)\\
+    ab = 2(2nm+n+m)+1.\\
+    k = 2nm+n+m\\
+    ab = 2k+1\\
+  \end{align*}
+  Thus, indicating the product is an odd integer  
+
+  2.5)
+  \begin{align*}
+    \sqrt[3]{2} = a/b\\
+    b * \sqrt[3]{2} = a\\
+    2b^{3} = a^{3}\\
+    2b^{3} = (2k)^{3}\\
+    (2k)^{3} = 8k^{3}\\
+    b^{3} = 4k^{3}\\
+  \end{align*}
+  Assume contradiction that $\sqrt[3]{2}$ is rational. Thus, it means that it must be a ratio of two integers and at most one must be even. However, with the given scenario that statement would be shown false. Therefore, the given $\sqrt[3]{2}$ is irrational.\\
+  \newline
+  2.7) If we imagine a cube stretched in one dimension, making it a rectangle, we slice the ends into seven sides. While the symmetry of the original cube is preserved through this transformation, the probability of landing on each side should be the same. Thus, creating a 7-sided dice
+  \newline
+  2.9)
+  a)
+  \begin{align*}
+    c =  a^{2}\\
+    d =  b^{2} \\
+    cd =  a^{2}  *  b^{2} \\
+    cd = (ab)^{2}\\
+    ab = k\\
+  \end{align*}
+  
+  which means that the product of c and d will be a perfect square of the integer, k\\
+  \newline
+  b)  We cam again assign c = $a^{2}$ and d = $b^{2}$, then set it up with the given $x^{2}$ and $y^{2}$. We’ll get x = a and y = b, and since both x and y are positive integers since both c and d are perfect squares, it proves that the statement is accurate and that if c $>$ d, then x $>$ y\\
+  \newline
+  2.11) A critique of the proof would be that if y is a negative integer, such as x = 2 and y = -3, then the statement would be shown as false.\\
+  \newline
+  2.13) a. Implications can be set f(x) as a statement where x is a positive actual number and h(x) states that x has two distinct square roots. For all positive real numbers x, if f(x), then h(x). The quantifier notation $\forall$ x, (f(x) $\Rightarrow$ h(x)) b. Like the one before, we can set f(x) as x is a positive even number, and h(x) as x can be expressed as the sum of two prime numbers. The statement can then be expressed as For all positive even numbers x, if f(x), then h(x). In quantifier notation: $\forall$ x, (f(x) $\Rightarrow$ h(x))  \\
+  \newline
+  2.15) Using the concept of the pigeonhole principle, we can set the number of people as the pigeons and the categories of either x knows the person or x doesn’t know the person as the holes. We can then apply the ceiling notation to the fraction 5/2, which equals 3. Thus, there must be at least three people that X knows or at least three whom X doesn’t know.
+ 
+\end{spacing}
+\end{document}
+

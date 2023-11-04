@@ -1,0 +1,71 @@
+\documentclass{article}
+
+\usepackage{mathtools} % useful for paired delimiters 
+
+\title{The Pigeonhole Principle}
+\author{Kevin Li}
+\date{August 29, 2023}
+
+% Paired delimiter
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+\maketitle
+\newpage
+\indent The pigeonhole principle:
+\newline F: X $->$ Y, \( |X| \) $>$ \(|Y|\) $\implies \exists x_{1}, x_{2} \in X:  x_{1} \ne x_{2} \land f(x_{1}) = f(x_{2})$
+\newline This is a  mathematics concept that states if you distribute more pigeons into fewer holes then every one will have at least one pigeon. In math equation above we can break it down into function F maps X to Y and the cardinality of X is greater than Y. Thus implies that $x_{1}, x_{2}$ exist and are members of X such as $x_{1}, x_{2}$ are not equal and $f(x_{1}) = f(x_{2})$. The sets are a collection of elements which are also known as the members and the members of a set are also distinct. Then each finite set will have a cardinality which is denoted by $| |$. To apply this principle we can idenify the given sets and it's cardinality. Now if assume that X is the set of pigeons and Y is the set of holes we can determine if the principle applies based on if the cardinality of X is greater than Y which would can be presented as \( |X| \) $>$ \( |Y| \). If it is greater then we can conclude that the pigeonhole principle does apply and that each hole will have atleast one pigeon if evenly distributed.
+\newline\indent The extended pigeonhole principle: \[\ceil*{\frac{|X|}{|Y|}}\]
+\newline This is a similar concept where it states that for any finite sets of X and Y, any positive integer k such that \(|X|\) $>$ k * \(|Y|\), if f: X $->$ Y then there is at least k + 1 one distinct members of the set. Which in other words if we assume that k is 1 and that if the cardinality of Y multipled by the integer k is less than the cardinality of X then there is at least 2 pigeon in the hole. For example, a set with a sequence of numbers looking like this \[ S = \{0, 1, 2, 3, 4, 5\} \] will have a cardinality of 6. Then if given the number of pigeons we can use the ceiling notation of the extended pigeonhole principle like this \[ \ceil*{\frac{10}{6}} \] Thus it as a fraction then rounding it up with the ceiling notation showing that it will equal to 2 indicating that the pigeonhole principle applies showing that at least one pigeonhole will have more one pigeon. On the otherhand, if it does not equal to 2 it will simply mean that each pigeonhole will have less than 2 pigeons. In addition, we can also use the floor notation like \[ \floor*{\frac{10}{6}} \]  which can also prove that the pigeonhole principle does also apply indicating that each hole will have at least one pigeon.
+
+
+
+%% This is an inline equation: $y = mx + b$
+
+%% This is a fraction: \( \frac{1234}{3456} \)
+
+%% This is a set \[ S = \{0, 1, 2, 3, 4, 5, 6, 7\} \]
+
+%% %This is a ceiling: \[ \lceil \frac{111}{5} \rceil \]
+
+%% This is a better ceiling: \[ \ceil*{\frac{111}{5}} \]
+
+%% Hello, World!
+
+%% %\fbox{\parbox{16cm} This is a box line 1 \\ This is a box line 2}
+
+%% \( |S| \)
+
+%% \begin{itemize}
+%% \item Broccoli
+%% \item Beans
+%% \item Bluebell IceCream
+%% \item Burger Buns
+%% \item Bueno Beff
+%% \item Bowling Ball
+%% \end{itemize}
+
+%% \begin{enumerate}
+%% \item{Denzel Curry}
+%% \item {Sza}
+%% \item {Aubrey Graham}
+%% \item {what? What?}
+%% \item {Hua Cheng Yu}
+%% \end{enumerate}
+
+%% $Floor(x) = LargestInteger \le X$
+
+%% $ \floor*{\frac{1,000,017}{1,000,019}} \approx \floor{0.99999} = 0 $
+
+%% \begin{equation}
+%%   \floor*{\frac{1,000,017}{1,000,019}} \approx \floor{0.99999} = 0 
+%% \end{equation}
+
+%% \begin{equation}
+%%   S = \[2, 4, 6, \ldots, 50,000\] 
+%% \end{equation}
+
+
+
+\end{document}
